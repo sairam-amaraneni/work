@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+    </head>
+    <form novalidate>
+    <h2>Search</h2>
+    <input type="search"
+    placeholder="search"
+    autofocus>
+    </form>
+    <form>
+        <div>
+            <h2>Enter your details</h2>
+            <input type="text"
+                placeholder="first and last name"
+                required
+                pattern="(.*)\s(.*)"/>
+                <div class="invalid"> please enter your name</div> 
+        </div>
+        <br />
+        <div>
+            <input type="email"
+                placeholder="enter mail"
+                required
+                pattern="(.*)@(.*).com"/>
+                <div class="invalid"> please enter valid mail address</div>
+            </div>
+        <br />
+        <div>
+            <input type="tel"
+                placeholder="phone number"
+                required>
+        </div>
+        <br />
+        <div>
+            <input type="url"
+                placeholder="web address">
+        </div>
+            <h2>Number of bedrooms required</h2>
+        <div>
+            <input type="number"
+                placeholder="eg:5"
+                required 
+                min="1"
+                max="6">
+        </div>
+        <div>
+            <h2>Number of days you are going to stay</h2>
+                <input type="number"
+                    placeholder="eg:23"
+                    min="0" max="120">   
+        </div>
+        <div>
+            <h2>Enter available date</h2>
+                <input type="date"
+                >
+        <!--<input type="month"
+        placeholder="11">
+        -->
+        </div>
+        <div>
+            <h3>Press submit to check availability</h3>
+                <button>cancel</button>
+                 <input type="submit">
+    </div>
+ 
+        
+    </form>
+
+</html>
