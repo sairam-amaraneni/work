@@ -1,0 +1,112 @@
+.center, .contents{
+    position : relative;
+}
+.center{
+    height: 400px;
+    width: 400px;
+    transform-style: preserve-3d;
+    user-select: none;
+}
+.front-face , .back-face, .front-face1, .back-face1, .front-face2, .back-face2{
+    backface-visibility: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    text-align: center;
+    border-radius:10px ;
+    transform-style: preserve-3d;
+    transition:transform .7s cubic-bezier(0.4, .2, 0.2, 1);
+}
+.front-face{
+    background: url(https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.back-face{
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7), rgb(100,100,100,0.7))   ,  url(https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+.front-face1{
+    background: url(https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.back-face1{
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7), rgb(100,100,100,0.7))   ,  url(https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+    background-size:cover;
+    background-position: top;
+    color:white;
+}
+.front-face2{
+    background: url(https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/coffee-background-10.jpg?resize=1280%2C800);
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.back-face2{
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7), rgb(100,100,100,0.7))   ,  url(https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/coffee-background-10.jpg?resize=1280%2C800);
+    background-size:cover;
+    background-position: top;
+    color:white;
+}
+.name, .para{
+    position: relative;
+
+}
+.sai{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.para {
+  padding-left: 5px;                       /*back text padding */ 
+  padding-right: 5px;
+}
+
+
+
+.front{
+    padding-top: 30%;
+}                                           /*text fashions */
+.back{
+    padding-top: 50%;
+}
+
+
+
+.center:hover >.front-face{                         
+     transform: rotateY(-180deg);                   
+}
+.center:hover > .back-face{
+    transform: rotateY(0deg);
+}
+.center:hover >.front-face1{
+    transform: rotateY(-180deg);                  
+}                                                /*  hover styles */
+.center:hover > .back-face1{
+   transform: rotateY(0deg);
+}
+.center:hover >.front-face2{
+    transform: rotateY(-180deg);
+}
+.center:hover > .back-face2{
+   transform: rotateY(0deg);
+}
+
+
+
+.tar1{
+    margin-left: 50px;
+    margin-right: 50px;                          /*margins for boxes for fliping */        
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

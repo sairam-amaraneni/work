@@ -1,0 +1,29 @@
+
+.menu{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+}
+.open-btn{
+    margin-left:auto;
+}
+.side_bar{
+    height:100%;
+    width: 0;
+    z-index: 10;
+    
+}
+.close-btn{
+    margin-left: auto;
+}
+.close-btn:hover{
+    background-color: khaki;
+}
+.open-btn:hover{
+    background-color: lawngreen;
+}
+.side_bar a{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    
+}

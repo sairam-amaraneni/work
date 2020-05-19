@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Brother Cafe</title>
+        <link rel="stylesheet" href="../css3/css3.css" type="text/css" >
+        <link rel="stylesheet" href="../css3/img-filp1.css" type="text/css">
+        <link rel="stylesheet" href="../css3/subscribe.css" type="text/css">
+        <link rel="stylesheet" href="../css3/menu-bar.css" type="text/css">
+        <script src="../script/menu-bar.js" type="text/js" ></script>
+        
+    </head>
+    <body>
+        <div>
+            <style>
+            .sidebar {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+              }
+              
+              .sidebar a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+              }
+              
+              .sidebar a:hover {
+                color: #f1f1f1;
+              }
+              
+              .sidebar .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+              }
+              
+              .openbtn {
+                font-size: 20px;
+                cursor: pointer;
+                background-color: #111;
+                color: white;
+                padding: 10px 15px;
+                border: none;
+              }
+              
+              .openbtn:hover {
+                background-color: #444;
+              }
+              
+              #main {
+                transition: margin-left .5s;
+                padding: 16px;
+              }
+              
+              /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+              @media screen and (max-height: 450px) {
+                .sidebar {padding-top: 15px;}
+                .sidebar a {font-size: 18px;}
+              }
+              </style>
+              </head>
+              
+              <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+                <h2>Collapsed Sidebar</h2>
+                <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+              </div>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+        <div id="web-content">
+        <main id="main">
+            <div class="pit tir">
+                <div class="hom">
+                    <div class="content text-center flex justify-center phy" style="background-color: brown;">
+                        <div class="data">
+                            <h2 class="heading">Responding to Covid-19</h2>
+                            <div class="sub-text">
+                                <p class="expl">As we continue to monitor the situation with Coronavirus (COVID-19), we are taking steps to help protect the health and well-being of our customers and partners.<a style="color:whitesmoke;" href="https://www.covid19india.org/" target="_blank" rel="noreferrer noopener" > learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pit tir">
+                <div class="hom">
+                    <div class="md-flex row-reverse">
+                        <div class="flex right-alignment items-center justify-center" style="background-color: brown;">
+                            <img class="imgs" alt="coffee logo" src="https://images.alphacoders.com/670/thumb-1920-670524.jpg">
+                        </div>
+                        <div class="left-alignment flex text-center items-center  justify-center phy" style="background-color: brown;">
+                            <div class="data">
+                                <h2 class="heading">Things are changing, but we're still here for you.</h2>
+                                <div class="sub-text">
+                                    <p class="expl">We have temporarily closed our in-store cafes, but select grocery and drive-thru locations remain open. Brother Cafe Delivers on Uber Eats is also available in select markets. Visit our store locator for the latest store hours and open locations.</p>
+                                </div>
+                                <a class="sd-button button-default button-black but" href="https://www.google.com/" min-width="35px" min-height="35px" target="_blank" rel="noreferrer noopener">near store</a> 
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="pit tir">
+                <div class="hom">
+                    <div class="md-flex">
+                        <div class="flex right-alignment items-center justify-center" style="background-color: brown;">
+                            <img class="imgs" alt="coffee logo" src="https://www.vancouversun.com/cms/binary/11645079.jpg">
+                        </div>
+                        <div class="left-alignment flex text-center items-center  justify-center phy" style="background-color: brown;">
+                            <div class="data">
+                                <h2 class="heading">Order & pay in the BrotherCafe app</h2>
+                                <div class="sub-text">
+                                    <p class="expl">Create an order, customize it and pay, all through your phone at select stores.</p>
+                                </div>
+                                <a class="sd-button button-default button-black but" href="https://www.google.com/" min-width="35px" min-height="35px" target="_blank" rel="noreferrer noopener">near store</a> 
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="pit tir">
+                <div class="hom">
+                    <div class="lg-flex flex-row" style="background-color: brown;">
+                        <div class="flex right-alignment items-center  flex-col" >
+                            <div style="background-color: brown;">
+                                <div class="lg-img">
+                                    <img class="imgs" src="https://www.lakotacoffee.com/wp-content/uploads/2017/02/coffee-bean-header.jpg" alt="logo">
+                                </div>
+                                <div class="data pad">
+                                <h2 class="heading">delivery fee for BrotherCafe orders on Uber Eats</h2>
+                                    <div class="sub-text">
+                                    <p class="expl">Get your favorite food and drinks delivered.</p>
+                                    </div>
+                                    <div>
+                                    <a class="sd-button button-default button-black but" href="https://www.google.com/" min-width="35px" min-height="35px" target="_blank" rel="noreferrer noopener">order now</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex left-alignment items-center  flex1-col" >
+                            <div style="background-color: brown;">
+                                <div class="lg-img">
+                                    <img class="imgs" src="https://i.pinimg.com/originals/09/52/e9/0952e9d8c44d9e1fcc1e9b6da06ca49c.jpg" alt="logo">
+                                </div>
+                                <div class="data pad">
+                                <h2 class="heading">Brew and enjoy from the comfort of home</h2>
+                                    <div class="sub-text">
+                                        <p class="expl">Get your Starbucks favorites from your grocery provider.</p>
+                                        <div>
+                                            <a class="sd-button button-default button-black but" href="https://www.google.com/" min-width="35px" min-height="35px" target="_blank" rel="noreferrer noopener">visit</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="our-products" class="pit">
+                <div class="col sai flex">
+                    <div class="center flex  tar1 ">
+                        <div class="front-face">
+                            <div class="contents front">
+                                <h2 class="name">Latte</h2>
+                            </div>
+                        </div>
+                        <div class="back-face">
+                            <div class="contents back">
+                                <p class="para">As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center flex tar1">
+                        <div class="front-face1">
+                            <div class="contents front">
+                                <h2 class="name">Cappuccino</h2>
+                            </div>
+                        </div>
+                        <div class="back-face1">
+                            <div class="contents back">
+                                <p class="para">Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center flex tar1">
+                        <div class="front-face2">
+                            <div class="contents front">
+                                <h2 class="name">Americano</h2>
+                            </div>
+                        </div>
+                        <div class="back-face2">
+                            <div class="contents back">
+                                <p class="para">With a similar flavor to black coffee, the americano consists of an espresso shot diluted in hot water. Pro tip: if you’re making your own, pour the espresso first, then add the hot water.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pit tir">
+                <div class="hom">
+                    <div class="flex flex-col" style="background-color: brown;">
+                        <div class="sub flex new">
+                            <div class="text-center1">
+                                <p>Subscribe To Newsletter</p>
+                            </div>
+                        </div>
+                        <div class="flex mail-part dec-part">
+                            <input type="email" 
+                            placeholder="email">
+                            <button>submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pit">
+                <div class="hom">
+                    <div class="phy text-center justify-center flex">
+                        <div class="mid">
+                            <p class="note"> Delivery waived for a limited time. Taxes and a Service Fee still apply. A Small Order Fee will apply to orders under $10. Menu limited. Restricted delivery area. Available in participating locations only. Fee subject to change. Prices for BrotherCafe® items purchased through Uber Eats may be higher than posted in stores or as marked. See the Uber Eats app for details. May not be combined with other offers, discounts, or promotions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="pit">
+                <div class="hom">
+                    <div class="flex col">
+                        <div class="about flex col1">
+                            <h3 class="hed">About us</h3>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">our heritage</a></div>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">ourcoffee</a></div>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">stories and news</a></div>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">products</a></div>
+                        </div>
+                        <div class="about flex col1">
+                            <h3 class="hed">careers</h3>
+                            <div class="divd"  ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">jobs</a></div>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">facilities</a></div>
+                            <div class="divd"  ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">employment</a></div>
+                        </div>
+                        <div class="about flex col1">
+                            <h3 class="hed">social impact</h3>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">aims</a></div>
+                            <div class="divd"  ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">funds</a></div>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">development</a></div>
+                        </div>
+                        <div class="flex about col1">
+                            <h3 class="hed">improvements</h3>
+                            <div class="divd" ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">new branches</a></div>
+                            <div class="divd"  ><a class="link" href="https://www.google.co.in/?gws_rd=ssl">stores</a></div>
+                            <div class="divd"  ><a class="link"  href="https://www.google.co.in/?gws_rd=ssl">infrastructure</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr aria-hidden="true"/>
+            <div class="base"> &copy; 2020 Brother Cafe Coffee Company. All rights reserved</div>
+        </footer>
+        </div>
+    </div>
+    </body>
+</html>

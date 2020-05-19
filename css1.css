@@ -1,0 +1,156 @@
+body{
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#web-body{
+    margin-left:auto;
+    margin-right:auto;
+}
+.c-pic{
+    margin:auto;
+    display:block;
+}
+.covid{
+    text-align: center;
+    margin:auto;
+    max-width: 700px;
+}
+.covid-main{
+    background: #525564;
+    background-position: center;
+    padding:10px;
+}
+.info{
+    text-align: center;
+    max-width:500px; 
+    margin: auto;
+    padding :20px;
+}
+.info-main::after{
+    clear:both;
+    content:"";
+    display:block;
+}
+.info-main{
+    background: #525564;
+  
+}
+.r-pic{
+    vertical-align: top;
+    float:left;
+    margin-left: 70px;
+}
+.intro{
+    
+    float:right;
+    width:700px;
+}
+.intro-main::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.l-pic{
+    float:left;
+    padding-left: 10px;
+}
+
+h1{
+    color:orange;
+}
+h2{
+    color:#96c0ce;
+}
+h3{
+    color:whitesmoke;
+}
+.intro{
+    color:#fef6eb;
+}
+.recipies{
+    color:lightblue;
+}
+#link1{
+    color:whitesmoke;
+}
+.item-preparation{
+    color:#fef6eb;
+}
+.ing{
+    color:lightsteelblue;
+}
+.references{
+    color:#fef6eb;
+}
+#list{
+    color:whitesmoke;
+}
+#brownies{
+    color:whitesmoke;
+}
+#coffee {
+    color:whitesmoke;
+}
+.item-name{
+    color:lightcoral;
+}
+.hoverstyle:hover{
+    color:whitesmoke;
+}
+/*
+h2[class=attributes]
+{
+  color:purple;
+}
+ol > li{
+    color:pink;
+}
+
+button{
+    height: 60px;
+    width:200px;
+    border-radius: 50px;
+    background: black;
+    outline: none;
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+button:hover{
+    background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4) ;
+    background-size: 400%;
+}
+button:before{
+    content:'';
+    position: absolute;
+    background:inherit;
+    top: -5px;
+    bottom: -5px;
+    right: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter:blur(20px);
+    opacity:0;
+    transition:opacity .5s;
+}
+button:hover:before{
+    opacity: 1;
+    z-index: -1;
+}
+button:hover{
+    z-index:1;
+    animation: glow 8s linear infinite;
+}
+@keyframes glow{
+    0%{
+        background-position: 0%;
+
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+*/
